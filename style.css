@@ -22,24 +22,24 @@ body, html {
 
 /* Logo Styling */
 .logo {
-    width: 300px; /* Adjust size as needed */
+    width: 400px; /* Logo size remains larger */
     height: auto;
-    margin-bottom: 30px;
+    margin-bottom: 0; /* No vertical gap between logo and tagline */
 }
 
 /* Tagline Styling */
 .tagline {
     font-family: 'TT Ramillas', serif; /* Apply TT Ramillas */
-    font-size: 1.4rem;
-    font-weight: 400;
-    color: #333333;
-    margin-bottom: 40px;
-    max-width: 700px;
-    line-height: 1.8;
+    font-size: 1.6rem; /* Font size for emphasis */
+    font-weight: 300; /* Bold font weight */
+    color: #000000;
+    max-width: 800px;
+    line-height: 1.2; /* Reduced line spacing for compact look */
 }
 
 /* Contact Button */
 .contact-button {
+    font-family: 'TT Ramillas', serif; /* Apply TT Ramillas */
     display: inline-block;
     font-size: 1rem;
     text-decoration: none;
@@ -48,6 +48,7 @@ body, html {
     padding: 10px 20px;
     border-radius: 25px;
     transition: all 0.3s ease;
+    margin-top: 30px; /* Adds space between tagline and button */
 }
 
 .contact-button:hover {
