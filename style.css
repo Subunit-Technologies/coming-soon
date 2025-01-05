@@ -22,18 +22,20 @@ body, html {
 
 /* Logo Styling */
 .logo {
-    width: 150px; /* Adjust size as needed */
+    width: 300px; /* Adjust size as needed */
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 /* Tagline Styling */
 .tagline {
-    font-size: 1.2rem;
+    font-family: 'TT Ramillas', serif; /* Apply TT Ramillas */
+    font-size: 1.4rem;
+    font-weight: 400;
     color: #333333;
-    margin-bottom: 30px;
-    max-width: 600px;
-    line-height: 1.6;
+    margin-bottom: 40px;
+    max-width: 700px;
+    line-height: 1.8;
 }
 
 /* Contact Button */
