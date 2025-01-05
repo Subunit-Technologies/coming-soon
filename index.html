@@ -5,13 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Coming Soon</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Ensure the entire page takes up the full viewport */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Prevent scrolling */
+        }
+
+        .embed-container {
+            position: relative;
+            width: 100%;
+            height: 100%; /* Full height of the viewport */
+            overflow: hidden;
+        }
+
+        .embed-container iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            border: none; /* Remove border around iframe */
+        }
+    </style>
 </head>
 <body>
     <div class="embed-container">
         <iframe 
-            src="https://www.canva.com/design/DAGbT1LS2D8/tw5I55Ks56RLicnWsnNQQg/view" 
-            allowfullscreen>
+            src="https://www.canva.com/design/DAGbT1LS2D8/tw5I55Ks56RLicnWsnNQQg/view?embed" 
+            loading="lazy" 
+            allowfullscreen="allowfullscreen" 
+            allow="fullscreen">
         </iframe>
     </div>
 </body>
